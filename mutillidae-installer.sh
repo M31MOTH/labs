@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
-MUTILLIDAE_URL="https://github.com/portantier/labs/blob/master/mutillidae.tar.xz"
+MUTILLIDAE_URL="https://github.com/portantier/labs/blob/master/mutillidae.tar.xz?raw=true"
 
 apt-get install -y --no-install-recommends \
 	libapache2-mod-php5 \
