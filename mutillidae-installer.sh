@@ -11,9 +11,11 @@ apt-get install -y --no-install-recommends \
 	php5-mysqlnd \
 	xz-utils
 
-wget -O /var/www/html/mutillidae.tar.xz $MUTILLIDAE_URL
+mkdir -p /var/www/html
 
 cd /var/www/html
+
+wget -O mutillidae.tar.xz $MUTILLIDAE_URL
 
 tar -xJf mutillidae.tar.xz
 
